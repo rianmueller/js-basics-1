@@ -16,6 +16,9 @@ var myName = 'this is a string value';
  * if it should be true if your person object is at least 16 years old
  */
 
+ var canDrive = (person.age >= 16);
+ console.log(canDrive);
+
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
  * and it should print "Hello, my name is {name}"
