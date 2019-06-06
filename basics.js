@@ -33,6 +33,9 @@ var myName = 'this is a string value';
  * (there are 6 different data types);
  */
 
+ var dataTypes = ['this is a string', 0, true, {type: 'object'}, ['array'], null, undefined];
+ console.log(dataTypes);
+
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
